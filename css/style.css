@@ -1,0 +1,118 @@
+/*CSS all*/
+.titre{
+  text-align: center;
+  color: #4196e0;
+}
+
+.navbar-brand > a{
+  color: white !important;
+  text-decoration: none;
+}
+
+.titre_content{
+  width: 100%;
+}
+
+.nav-link {
+  color: rgba(0, 0, 0, 1) !important;
+}
+
+.nav-link:hover{
+  color: rgba(255, 255, 255, 1) !important;
+  transition: 0.5s;
+}
+
+.nav-item{
+  height: auto;
+  font-size: 1.2em;
+}
+
+.dropdown-menu{
+  background-color: #4196e0;
+  border-color: #4196e0;
+}
+
+.navbar{
+  background-color: #4196e0 ! important;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+}
+
+.content{
+  margin-top: 60px;
+}
+
+footer{
+  background:#fff;
+  width: 100%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#navbarSupportedContent{
+  background-color: #4196e0;
+  padding-left: 15px;
+}
+
+#passerror{
+  display: none;
+  color: red;
+}
+
+#rechin{
+  border-radius: 20px;
+  padding-left: 3px;
+}
+
+#rechbut{
+  border-style: solid;
+  border-color: #00bc009c;
+  border-radius: 20px;
+  background-color: #4196e0;
+  color: black;
+  text-decoration: none;
+}
+
+#co_but, #deco_but{
+  font-size: 1.2em;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #00bc009c;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #4196e0;
+  color: black;
+  text-decoration: none;
+}
+
+#co_but:hover, #deco_but:hover{
+  background-color: white;
+  transition: 0.7s;
+}
+
+#signup{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#login{
+  background-color: #00bc009c;
+  border-radius: 15px;
+  border-color: #00bc009c;
+}
+
+#login:hover{
+  color: white;
+  transition: 0.3s;
+}
+
+#iderror, #id_exist{
+  color: red;
+  display: none;
+}
+
+#chartContainer, #chartContainerVolume {
+  margin-bottom: 25px;
+}

@@ -1,0 +1,51 @@
+/*CSS main.html*/
+
+#droite{
+  width: 35%;
+}
+
+#gauche{
+  width: 65%;
+}
+
+#main-content{
+  margin-top: 92px;
+}
+
+#photo_main{
+  max-width: 150px;
+}
+
+#telechargement{
+  font-size: 1.2em;
+}
+
+#gauche > img, #main-content{
+  height: 550px;
+}
+
+#etudiant > a, #contact > a{
+  font-size: 1.5em;
+}
+
+.navbar{
+  height: 60px;
+}
+
+.navbar-brand > a{
+  font-size: 1.1em;
+  color: white !important;
+}
+
+li > a{
+  font-size: 2em;
+}
+
+.des_pass{
+  font-size: 1.6em;
+}
+
+.navbar-toggler-icon{
+  height: 35px;
+  width: 45px;
+}
